@@ -1,0 +1,140 @@
+/* PC desplay */
+@media (min-width: 64em) {
+    
+}
+
+/* Tablet and mobile desplayy */
+
+@media (max-width: 63.9375em) {
+    .btn {
+        line-height: 47px;
+    }
+
+    .contact-info {
+        line-height: 3.2rem;
+    }
+
+    .contact-form .form-control {
+        padding: 12px 8px;
+        font-size: 1.8rem;
+    }
+
+    #footer .socials-list {
+        font-size: 48px;
+    }
+
+    #footer .socials-list a {
+        margin: 0 8px;
+    }
+
+    #footer .copyright a {
+        padding: 13px 0;
+        display: inline-block;
+    }
+}
+
+
+/* Tablet desplay */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    #nav .subnav a {
+        padding: 5px 17px;
+    }
+
+    .modal-container {
+        width: 500px;
+    }
+}
+
+/* mobile desplay */
+@media (max-width: 46.1875em) {
+    /* common */
+    .s-full-width,
+    .s-col-full {
+        width: 100% !important;
+    }
+
+    .s-mt-16 {
+        margin-top: 16px !important;
+    }
+
+    .s-mb-16 {
+        margin-bottom: 16px !important;
+    }
+
+    .s-mt-8 {
+        margin-top: 8px !important;
+    }
+
+    .s-mt-32 {
+        margin-top: 32px !important;
+    }
+
+    .s-mb-32 {
+        margin-bottom: 32px !important;
+    }
+
+    /* Begin: nav */
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav > li > a {
+        text-transform: initial;
+        padding: 1px 25px;
+    }
+
+    #nav .subnav {
+        position: relative;
+        background-color: #333;
+
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 40px;
+    }
+    /* End: nav */
+    /* about section */
+    #content .members-list {
+        padding: 47px 0 0;
+    }
+
+    #content .member-img {
+        width: 60%;
+    }
+
+    /* tour section */
+    /* contact section */
+    .contact-form {
+        margin-top: 32px;
+    }
+
+    .contact-form .form-submit-btn {
+        font-size: 2rem;
+    }
+
+    .modal-container {
+        width: 95vw;
+    }
+}
